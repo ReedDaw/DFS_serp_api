@@ -4,7 +4,7 @@ from client import RestClient
 from bs4 import BeautifulSoup
 
 # You can download this file from here https://cdn.dataforseo.com/v3/examples/python/python_Client.zip
-client = RestClient("reed.daw@angi.com", "53f8deab44d30c99")
+client = RestClient("user_name", "pw")
 
 # Function to read keywords from CSV file
 def read_keywords_from_csv(file_path):
